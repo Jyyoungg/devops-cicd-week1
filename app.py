@@ -48,7 +48,7 @@ def home():
     return render_template_string(
         HTML_TEMPLATE,
         title="Welcome to DevOps CI/CD Demo",
-        description="This is a simple Flask application demonstrating CI/CD with GitHub Actions and Heroku.",
+        description="This is a simple Flask application demonstrating CI/CD with GitHub Actions and Render.",
         environment=os.getenv('FLASK_ENV', 'development')
     )
 
